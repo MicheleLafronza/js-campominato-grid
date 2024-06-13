@@ -50,6 +50,11 @@ main > h1 {
     background-color: blueviolet;
 }
 
+/* regole testo dentro la box */
+.number {
+    font-size: 1.2rem;
+}
+
 
 
 /* regole bottone */
