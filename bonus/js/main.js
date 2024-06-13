@@ -55,7 +55,6 @@ button.addEventListener("click",
 
             // inserisco il testo nel div col numero
             boxNum.innerHTML=(i);
-
         }
 
         

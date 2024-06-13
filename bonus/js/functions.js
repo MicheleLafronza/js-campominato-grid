@@ -9,5 +9,5 @@ function newElementWithClass (elmnt, clss) {
 
     // output della funzione: elemento con classe
     return newEl;
-
+    
 }
