@@ -16,10 +16,18 @@ button.addEventListener("click",
         for (let i=1; i <=100; i++) {
 
             // variabile con funzione che aggiunge elemento e classe
-            boxDiv = newElementWithClass("div", "box");
+            let boxDiv = newElementWithClass("div", "box");
+
+            // associo al div l'evento di click
+            boxDiv.addEventListener("click",
+                function () {
+                    boxDiv.classList.add("clicked")
+                    console.log("La cella cliccata è la numero: " + i);
+                }
+            )
 
             // aggiungo il numero dentro al div sempre con la stessa funzione
-            boxNum = newElementWithClass("div", "number");
+            let boxNum = newElementWithClass("div", "number");
 
             // inserisco il div box nel container
             container.append(boxDiv);
