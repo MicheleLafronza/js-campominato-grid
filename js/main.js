@@ -8,6 +8,10 @@ const container = document.getElementById("contenitore");
 button.addEventListener("click",
 
     function() {
+
+        // svuotiamo il container
+        container.innerHTML= " ";
+
         // aggiungo la classe container al contenitore per farlo comparire
         container.classList.add("container");
 
